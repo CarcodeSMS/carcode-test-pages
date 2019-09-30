@@ -1,5 +1,5 @@
 (() => {
-  const loadForm = async () => fetch('/carcode-test-pages/settings-form')
+  const loadForm = async () => fetch('/carcode-test-pages/settings-form.html')
     .then(response => response.text())
     .then((formHtml) => {
       $('body').append(formHtml);

@@ -170,7 +170,7 @@
       getInventories({
         type,
       }),
-      fetch('/inventory-card')
+      fetch('/inventory-card.html')
         .then(response => response.text())
     ]);
 

@@ -18,7 +18,7 @@
 
       // navigate to home
       if (location.href.includes('settings.html')) {
-        window.location.href = '/index.html';
+        window.location.href = '/carcode-test-pages/index.html';
       } else { // reload page
         location.reload();
       }

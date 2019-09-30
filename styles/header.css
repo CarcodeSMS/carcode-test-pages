@@ -9,7 +9,7 @@
 .logo {
   width: 78px;
   height: 39px;
-  background-image: url(/static/images/logo.png);
+  background-image: url(/carcode-test-pages/static/images/logo.png);
   background-repeat: no-repeat;
   background-size: contain;
 }

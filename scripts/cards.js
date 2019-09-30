@@ -170,7 +170,7 @@
       getInventories({
         type,
       }),
-      fetch('/inventory-card.html')
+      fetch('/carcode-test-pages/inventory-card.html')
         .then(response => response.text())
     ]);
 
